@@ -1,0 +1,199 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    max-width: 90vw;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    max-width: 100%;
+    padding: 20px;
+}
+
+nav {
+    text-align: right;
+    width: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration-line:underline;
+}
+
+.logo {
+    height: 100px;
+    width: 300px;
+}
+
+.sec-1 {
+    border: 2px solid black;
+    height: 220px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    background-color: #334eff;
+}
+
+p {
+    color: #333333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.subtitle {
+    text-align: right;
+    width: 250px;
+    padding: 20px;
+    margin-top: 120px;
+    margin-right: 40px;
+    color: white;
+}
+
+.sec-2 {
+    height: 200px;
+}
+
+.title-main {
+    padding: 20px;
+    margin: 20px;
+    display: inline;
+    max-width: 310px;
+    width: 197px;
+    border-right: 5px solid #445876;
+    padding-left: 0;
+    margin-left: 0;
+    padding-right: 35px;
+}
+
+.description {
+    padding: 20px;
+    margin: 20px;
+    display: inline;
+    max-width: 70%;
+    width: 70%;
+}
+.title-main h2 {
+    color: #445876;
+    font-size: 50px;
+    text-align: right;
+}
+.project-1-main {
+    height: 500px;
+    width: 700px;
+    padding: 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.divider {
+    background-color: #334eff;
+    width: 10px;
+    display: none;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-responsive {
+    max-width: 100%;
+}
+
+.project-1-main {
+    height: 500px;
+    width: 100%;
+    padding: 0;
+}
+
+.project-1-main img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+.project-1-main {
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.project2 {
+    max-width: 49%;
+    margin: 0;
+}
+.project2 {
+    max-width: 49%;
+    margin: 0;
+    flex: 1;
+}
+.project2 img {
+    height: 100px;
+    width: 100% !important;
+    object-fit: cover;
+    max-width: 100% !important;
+}
+.project2 {
+    max-width: 49%;
+    margin: 0;
+    flex: 1;
+    margin-bottom: 14px;
+}
+
+ul.bottom-menu{list-style: none; margin-top: 50px;}
+ul.bottom-menu.d-flex.justify-content-between a {
+    text-decoration: none;
+    list-style: none;
+    color: #445876;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
