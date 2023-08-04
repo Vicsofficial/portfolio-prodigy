@@ -3,14 +3,13 @@ html {
 }
 
 * {
-    max-width: 90vw;
+    max-width: 100vw;
     margin: 0 auto;
     font-family: 'Inter', sans-serif;
 }
 
 header {
     max-width: 100%;
-    padding: 20px;
 }
 
 nav {
@@ -31,7 +30,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    text-decoration-line:underline;
+    text-decoration-line: underline;
 }
 
 .logo {
@@ -40,11 +39,19 @@ nav ul li a:hover {
 }
 
 .sec-1 {
-    border: 2px solid black;
-    height: 220px;
+    height: 330px;
     margin-bottom: 50px;
     margin-top: 30px;
     background-color: #334eff;
+}
+
+.sec-1-image {
+    width: 100%;
+    height: 330px;
+    margin-bottom: 50px;
+    background-image: url(flag.png);
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 p {
@@ -52,16 +59,16 @@ p {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
 .subtitle {
     text-align: right;
     width: 250px;
-    padding: 20px;
+    padding: 245px;
     margin-top: 120px;
-    margin-right: 40px;
+    margin-right: 0px;
     color: white;
 }
 
@@ -118,6 +125,10 @@ p {
     max-width: 100%;
 }
 
+.img-responsive:hover {
+    background-color: #334eff;
+}
+
 .project-1-main {
     height: 500px;
     width: 100%;
@@ -125,31 +136,40 @@ p {
 }
 
 .project-1-main img {
-    height: 350px;
+    height: 666px;
     width: 100%;
     object-fit: cover;
 }
+
 .project-1-main {
     height: auto;
     width: 100%;
     padding: 0;
     margin-bottom: 15px;
 }
+
+.project-label {
+    border: 2px solid white;
+}
+
 .project2 {
     max-width: 49%;
     margin: 0;
 }
+
 .project2 {
     max-width: 49%;
     margin: 0;
     flex: 1;
 }
+
 .project2 img {
-    height: 100px;
+    height: 110px;
     width: 100% !important;
     object-fit: cover;
     max-width: 100% !important;
 }
+
 .project2 {
     max-width: 49%;
     margin: 0;
@@ -157,7 +177,11 @@ p {
     margin-bottom: 14px;
 }
 
-ul.bottom-menu{list-style: none; margin-top: 50px;}
+ul.bottom-menu {
+    list-style: none;
+    margin-top: 50px;
+}
+
 ul.bottom-menu.d-flex.justify-content-between a {
     text-decoration: none;
     list-style: none;
