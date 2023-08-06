@@ -58,8 +58,15 @@ p {
     color: #555555;
 }
 
+.profile-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    box-shadow: 5px 10px 33px #b0b0b0;
+}
+
 .c-2 {
-    margin-top: 222px;
+    margin-top: 333px;
 }
 
 .container {
