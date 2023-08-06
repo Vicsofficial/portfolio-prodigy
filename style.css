@@ -55,7 +55,11 @@ nav ul li a:hover {
 }
 
 p {
-    color: #333333;
+    color: #555555;
+}
+
+.c-2 {
+    margin-top: 222px;
 }
 
 .container {
@@ -116,6 +120,10 @@ p {
     display: none;
 }
 
+.description {
+    color: #333333;
+}
+
 .justify-content-between {
     justify-content: space-between;
     align-items: center;
@@ -139,6 +147,7 @@ p {
     height: 666px;
     width: 100%;
     object-fit: cover;
+    border-radius: 33px;
 }
 
 .project-1-main {
@@ -168,6 +177,7 @@ p {
     width: 100% !important;
     object-fit: cover;
     max-width: 100% !important;
+    border-radius: 22px;
 }
 
 .project2 {
